@@ -25,17 +25,17 @@ public class Ch3Ex3Activity extends AppCompatActivity {
 
 
         ViewPager pager = findViewById(R.id.view_pager);
-        pager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
-            @Override
-            public Fragment getItem(int i) {
-
-            }
-
-            @Override
-            public int getCount() {
-                return 3;
-            }
-        });
+//        pager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
+//            @Override
+////            public Fragment getItem(int i) {
+////
+////            }
+//
+//            @Override
+//            public int getCount() {
+//                return 3;
+//            }
+//        });
 
         // TODO: ex3-2, 添加 TabLayout 支持 Tab
     }
